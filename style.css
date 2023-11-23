@@ -3,8 +3,15 @@ body {
     font-family: Gorditas;
 }
 
+.bg_up {
+    background-image: url(images/f-s__blue-bg.02b9948d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 910px;
+}
+
 .wrapper {
-    width: 1450px;
+    width: 1250px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -32,7 +39,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-}
 
 .nav_headder {
     padding: 0 30px 45px 0;
@@ -40,28 +46,43 @@ body {
     line-height: 16px;
 }
 
-..header_adres_1 {
+.header_adres_1 {
     padding-right: 40px;
+}
+
+.header_adres_1 > a {
+    text-decoration: none;
+    color: #5775C3;
 }
 
 .a_link {
     text-decoration: none;
     padding: 12px 25px;
-    width: 200px;
-    height: 72px;
     text-align: center;
     line-height: 16px;
+    color: #5775C3;
+
+    
 }
 
 .call {
-    border-radius: 87px;
     border: 1px solid rgba(255, 255, 255, 0.1882352941);
+    background: linear-gradient(167.75deg, #FEB692 0%, #EA5455 100%);
     padding: 5px 6px 6px;
     background-color: red;
+    font-family:Gorditas ;
     color: white;
+    border-radius: 0;
+
+    padding: 15px 33px;
+    border-radius: 32px;
 }
 
 /* end header */
+
+.first_section {
+    font-family: Rubik;
+}
 
 .first_blok {
     display: flex;
@@ -69,7 +90,7 @@ body {
 }
 
 h1 {
-    font-size: 58px;
+    font-size: 50px;
     line-height: 64px;
     color: #5775C3;
     font-weight: 700;
@@ -80,12 +101,270 @@ h1 {
     background: linear-gradient(241deg, #F6CEEC -30%, #D939CD 100%);
     border-radius: 5px;
     padding: 0 5px;
+    margin: 0;
+    font-size: 23px;
 }
 
 .firts_text_block_text_dark {
+    line-height: 30px;
+    color: #5775C3;
+    margin: 0;
+    font-size: 23px;
 
 }
 
 .first_block_wrapper {
     padding: 0;
+    font-weight: 600;
+    font-size: 28px;
 }
+
+.license {
+    font-weight: 600;
+    color: #5775C3;
+    font-size: 12px;
+}
+
+.about_price_text {
+    border-radius: 20px 20px 20px 0;
+    display: block;
+    background: #5775C3;
+    padding: 20px 30px;
+    color: white;
+    line-height: 18px;
+    margin: 0;
+    width: 420px;
+    font-size: 22px;
+    line-height: 18px;
+
+}
+
+.about_price_price {
+    color: #fff;
+    font-size: 26px;
+    line-height: 100%;
+    font-weight: 600;
+    background-color: #5775C3;
+    border-radius: 0 0 20px 20px;
+    margin: 0;
+    width: 330px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.about_price {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_cont {
+    background-image: url(images/f-s__btn-arrow.8ad8b1ea.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 35% 90%;
+    margin-top: -25px;
+    height: 80px;
+    position: relative;
+}
+
+.button_zapis {
+    padding: 20px 65px;
+    background: linear-gradient(167.75deg, #60D66A 0%, #20B038 100%);
+    border-width: 0;
+    position: relative;
+    left: 350px;
+    top: 40px;
+    border-radius: 32px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: rubik;
+}
+
+.button_cont {
+    display: block;
+}
+
+/* end 1-st sectin */
+
+h2 {
+    font-size: 50px;
+    line-height: 100%;
+    font-family: rubik;
+    font-weight: 700;
+    text-align: center;
+    color: #5775C3;
+    margin: 0px;
+}
+
+.data {
+    padding-bottom: 25px;
+}
+
+.programm {
+    font-size: 18px;
+    line-height: 30px;
+    color: #5775C3;
+    text-align: center;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.programm > p {
+    margin: 0px;
+}
+
+/* end promo 1 */
+
+.promo_2 {
+    background-image: url(images/bg_promo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 79px;
+    padding-bottom: 172px;
+    font-family: rubik;
+}
+
+.wait {
+    font-size: 60px;
+    line-height: 100%;
+    font-weight: 700;
+    width: 660px;
+    color: white;
+    padding: 84px 0 60px;
+    margin: 0px;
+}
+
+.aboute_promo > p {
+    line-height: 26px;
+    color: white;
+}
+
+.aboute_promo_br {
+    font-weight: 700;
+}
+
+.aboute_promo > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* end 2 promo */
+
+.advantages > p {
+    font-size: 60px;
+    line-height: 100%;
+    font-family: "rubik";
+    font-weight: 700;
+    text-align: center;
+    color: #5775C3;
+}
+
+.advantages_li {
+    padding: 0px 120px 80px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    gap: 20px;
+    
+}
+
+.list > li {
+    width: 420px;
+    height: 52px;
+    color: #5775C3;
+    font-weight: 400;
+}
+
+/* Конец приемуществ */
+
+.groups {
+    background-image: url(images/bg_grup.png);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
+    font-family: rubik;
+    text-align: center;
+    }
+
+.age_text {
+    font-size: 60px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #5775C3;
+
+}
+
+.groups_wrapper {
+    display: flex;
+    justify-content: space-around;
+    line-height: 26px;
+}
+
+.baby > a {
+    text-decoration: none;
+}
+
+.image_baby {
+    padding: 45px 25px 10px;
+    width: 130px;
+    height: 124px;
+}
+
+.age_pink {
+    background-image: url(images/pink_age.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    padding: 25px 15px 15px;
+    margin: 0 -5px -5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.age_pink > p {
+    margin: 0px;
+    
+}
+
+.age_blue > p {
+    margin: 0px;
+}
+
+.age_blue {
+    background-image: url(images/blue_age.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 25px 15px 15px;
+    margin: 0 -5px -5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.baby {
+    border: 5px solid #DAEEF7;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.name_age {
+    font-size: 20px;
+    line-height: 100%;
+    font-family: "rubik";
+    font-weight: 500;
+}
+
+
